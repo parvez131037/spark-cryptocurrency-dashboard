@@ -1,36 +1,38 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: "class",
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  darkMode: 'class',
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    screens: {
-      'xs': '400px',
+      screens: {
+          xxs: '375px',
 
-      'xs2': '500px',
-      
-      'sm': '640px',
-      // => @media (min-width: 640px) { ... }
+          xs: '400px',
 
-      'md': '768px',
-      // => @media (min-width: 768px) { ... }
+          xs2: '500px',
 
-      'md2': '900px',
+          xs3: '550px',
 
-      'lg': '1024px',
-      // => @media (min-width: 1024px) { ... }
+          sm: '640px',
+          // => @media (min-width: 640px) { ... }
 
-      'xl': '1280px',
-      // => @media (min-width: 1280px) { ... }
+          sm2: '700px',
 
-      '2xl': '1536px',
-      // => @media (min-width: 1536px) { ... }
+          md: '768px',
+          // => @media (min-width: 768px) { ... }
 
-    },
+          md2: '900px',
+
+          lg: '1024px',
+          // => @media (min-width: 1024px) { ... }
+
+          lg2: '1200px',
+
+          xl: '1280px',
+          // => @media (min-width: 1280px) { ... }
+
+          '2xl': '1536px',
+          // => @media (min-width: 1536px) { ... }
+      },
   },
-  plugins: [
-    require('tailwind-scrollbar-hide')
-  ],
-  // darkMode:'media',
-}
+  plugins: [require('tailwind-scrollbar-hide')],
+};

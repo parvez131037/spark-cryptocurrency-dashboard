@@ -30,14 +30,12 @@ function CoinList() {
     }, [currencyVal]);
 
     // Filtering to check for the searched crypto
-
     const filteredCoins = coins.filter((coin) =>
         coin.name.toLowerCase().includes(searchVal.toLowerCase())
     );
 
     return (
         <div className="py-5 ">
-
             {/* --- Cryptocurrency by market cap --- */}
             <div className="px-4 mb-8 xl:mb-9 lg:mb-6 font-bold text-xl tracking-wider text-stone-600">
                 <h1 className='dark:text-gray-50'>Cryptocurrency by market cap</h1>
@@ -46,9 +44,6 @@ function CoinList() {
 
             <div className="h-[44rem] lg:h-[41rem] xl:h-[44rem] overflow-y-scroll scrollbar-hide">
                 {filteredCoins.map((coin) => {
-
-                    //Mapping all the Crypto Currencies
-
                     return (
                         <Coin
                             key={coin.id}

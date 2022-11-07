@@ -11,6 +11,7 @@
   height: 40px;
   width: 17rem;
   background: black;
+  cursor: pointer;
  }
 
  /* Options Container */
@@ -18,7 +19,6 @@
     display: none;  /* Safari and Chrome */
 }
 .optionContainer {
-  /* width: 20rem; */
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
   scrollbar-width: none;  /* Firefox */
 }
