@@ -25,7 +25,7 @@
 Clone the repository on your local machine with the command below in your terminal, and cd into the **my-app**
 
 ```bash
-https://github.com/R-holmes10/crypto-dashboard
+https://github.com/R-holmes10/spark-cryptocurrency-dashboard
 
 cd my-app
 ```
